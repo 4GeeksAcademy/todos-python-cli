@@ -1,22 +1,18 @@
-# Python Hello
+# Todo List CLI
 
-The most basic boilerplate to start a Python project at 4Geeks is to start your very first Python project from scratch.
+An interactive command-line todo list. Todos are saved in `todos.csv` beside `main.py`.
 
-## What to do next?
-
-Open the `main.py` file and start writing your code.
-
-Execute your code by typing the following command on your terminal:
+Run the application with:
 
 ```bash
-$ python main.py
+python main.py
 ```
 
-You can create and include as many python files (a.k.a. modules) as you want using the import statements.
+Use the menu to add a todo, display the list, delete a todo by its displayed position, or exit. A missing `todos.csv` is treated as an empty list.
 
 ## Requirements
 
-Make sure you have Python installed in your computer. We strongly recommend [installing Python through Pyenv ](https://4geeks.com/how-to/what-is-pyenv-and-how-to-install-pyenv) to avoid version conflicts in the future.
+Make sure you have Python installed. We recommend [installing Python through Pyenv](https://4geeks.com/how-to/what-is-pyenv-and-how-to-install-pyenv) to avoid version conflicts.
 
 ### Contributors
 
