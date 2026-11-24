@@ -1,14 +1,30 @@
-# Todo List CLI
+# Todo List CLI and API
 
-An interactive command-line todo list. Todos are saved in `todos.csv` beside `main.py`.
+An interactive command-line todo list and FastAPI server. Todos are saved in `todos.csv`, and users are saved separately in `users.csv`, beside `main.py`.
 
-Run the application with:
+Install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the command-line application:
 
 ```bash
 python main.py
 ```
 
-Use the menu to add a todo, display the list, delete a todo by its displayed position, or exit. A missing `todos.csv` is treated as an empty list.
+Run the FastAPI server:
+
+```bash
+python server.py
+```
+
+The API is available at `http://127.0.0.1:3000`, with interactive documentation at `/docs`.
+
+Use the menu to add, display, edit, or delete todos and create or list users. Todos require a `user_id`.
+
+API routes include `/users`, `/users/{user_id}`, `/users/{user_id}/todos`, and `/todos`. Existing todos are migrated to the default user `id=1, username=default`.
 
 ## Requirements
 

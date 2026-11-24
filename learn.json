@@ -1,13 +1,13 @@
 {
   "title": {
-    "en": "Python Starter Template for Beginners",
-    "es": "Plantilla Inicial de Python para Principiantes"
+    "en": "Todo List CLI and FastAPI",
+    "es": "Lista de tareas CLI y FastAPI"
   },
   "description": {
-    "en": "This is a starter template for Python projects. It includes a basic folder structure, a sample Python file, and instructions to kickstart your project.",
-    "es": "Esta es una plantilla inicial para proyectos de Python. Incluye una estructura básica de carpetas, un archivo Python de ejemplo y instrucciones para iniciar tu proyecto."
+    "en": "A modular CSV-backed todo application with a command-line interface and FastAPI server.",
+    "es": "Una aplicación modular de tareas respaldada por CSV con interfaz de línea de comandos y servidor FastAPI."
   },
-  "repository": "https://github.com/4geeksacademy/python-hello",
+  "repository": "https://github.com/4GeeksAcademy/todos-python-cli",
   "preview": "",
   "projectType": "template",
   "difficulty": "beginner",

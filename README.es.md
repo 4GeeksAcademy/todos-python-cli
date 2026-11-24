@@ -1,18 +1,28 @@
-# Python Hello
+# Lista de tareas CLI y API
 
-El boilerplate más básico para comenzar un proyecto en Python en 4Geeks. Inicia tu primer proyecto en Python desde cero.
+Una aplicación modular de tareas con persistencia CSV y una interfaz FastAPI.
 
-## ¿Qué hacer a continuación?
-
-Abre el archivo `main.py` y comienza a escribir tu código.
-
-Ejecuta tu código escribiendo el siguiente comando en tu terminal:
+Instala las dependencias:
 
 ```bash
-$ python main.py
+pip install -r requirements.txt
 ```
 
-Puedes crear e incluir tantos archivos de Python (también conocidos como módulos) como desees utilizando las declaraciones de importación.
+Ejecuta la aplicación de línea de comandos:
+
+```bash
+python main.py
+```
+
+Ejecuta el servidor FastAPI:
+
+```bash
+python server.py
+```
+
+La API estará disponible en `http://127.0.0.1:3000` y la documentación interactiva en `/docs`.
+
+Los usuarios se guardan en `users.csv` y los todos se guardan en `todos.csv` con un `user_id`. Las rutas incluyen `/users`, `/users/{user_id}` y `/users/{user_id}/todos`. Los todos existentes se asignan al usuario predeterminado `id=1, username=default`.
 
 ## Requisitos
 
